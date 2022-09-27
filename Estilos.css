@@ -1,14 +1,68 @@
-p {
-  color: purple;
-  border: 1px solid black;
-  background-color: yellow;
+/* Esto cambia la pagina */
+body {
+  margin: 0;
 }
-#footer {
-  color: tomato;
-  font-size: 30px;
-  background-color: brown;
+/* esto es la cabecera */
+#header {
+  height: 150px;
+  /* background-color: aquamarine; */
+  background-image: url("https://www.xtrafondos.com/descargar.php?id=5846&resolucion=2560x1440");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+  font-family: "Alfa Slab One", cursive;
+  text-align: center;
+  line-height: 150px;
 }
 
-.verde {
-  color: green;
+#menu {
+  height: 50px;
+  background-color: rgb(29, 53, 133);
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px 0 20px 0;
+}
+
+ul {
+  margin: 0;
+}
+li {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 50px 0 0;
+}
+
+/* esto es el contenido principal */
+#main {
+  height: 500px;
+  background-color: rgb(207, 140, 64);
+  display: flex;
+  flex direction: row;
+}
+#sidebar {
+  background-color: bisque;
+  height: 500px;
+  width: 20%;
+}
+#article {
+  background-color: salmon;
+  height: 500px;
+  width: 80%;
+}
+/* esto es el pie de pagina */
+#footer {
+  height: 150px;
+  background-color: seagreen;
+  color: #fff;
+  line-height: 150px;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
 }
