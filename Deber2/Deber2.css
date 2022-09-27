@@ -9,9 +9,14 @@ body {
   color: white;
 }
 
-img {
+.logo {
   height: 50px;
 }
+
+.pokemon {
+  height: 250px;
+}
+
 #menu {
   display: flex;
   flex-direction: row;
